@@ -1,0 +1,7 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:saludador="http://don-saludador.com/ws">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <saludador:sayHello>
+    </saludador:sayHello>
+  </soapenv:Body>
+</soapenv:Envelope>
