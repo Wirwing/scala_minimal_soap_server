@@ -1,7 +1,11 @@
-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:saludador="http://don-saludador.com/ws">
-  <soapenv:Header/>
-  <soapenv:Body>
-    <saludador:sayHello>
-    </saludador:sayHello>
-  </soapenv:Body>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:slim="http://slim.ouertani.me/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <slim:divide>
+         <input>
+            <a>6</a>
+            <b>4</b>
+         </input>
+      </slim:divide>
+   </soapenv:Body>
 </soapenv:Envelope>
